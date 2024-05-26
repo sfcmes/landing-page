@@ -1,0 +1,70 @@
+/* src/components/LandingPage.css */
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #2A629A;
+    text-align: center;
+    color: white;
+    width: 100%; /* Set width to 100% to occupy full screen width */
+  }
+  
+  .landing-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .landing-page img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (min-width: 768px) {
+    .landing-page h1 {
+      font-size: 4rem;
+    }
+  
+    .landing-page p {
+      font-size: 1.75rem;
+      margin-bottom: 60px; /* Increase margin for larger screens */
+    }
+  
+    .button-container {
+      flex-direction: row;
+      max-width: 600px; /* Limit button container width for better readability */
+    }
+  }
+  

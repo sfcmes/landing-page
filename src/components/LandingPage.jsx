@@ -1,5 +1,3 @@
-// src/components/LandingPage.jsx
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '@mui/material/Button';
@@ -24,7 +22,7 @@ const LandingPage = () => {
         Discover amazing content here
       </motion.p>
       <motion.img
-        src="/S__18087951_0.jpg"
+        src="./S__18087951_0.jpg"
         alt="Decorative Image"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
